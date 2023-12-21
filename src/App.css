@@ -1,0 +1,11 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary-color : #212225;
+    --font-color : white;
+    --secondary-font : #cdcdcd;
+    --primary-bg : #02233f;
+    font-family: 'Open Sans', sans-serif;
+}

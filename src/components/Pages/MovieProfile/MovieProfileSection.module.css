@@ -1,0 +1,127 @@
+.profile {
+    min-height: 100%;
+    width: 100%;
+    background-color: #032541;
+    padding-bottom: 30px;
+}
+
+.profile_banner {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    gap: 30px;
+    background-image: linear-gradient(to bottom right, rgba(220.5, 220.5, 241.5, 0.7), rgba(220.5, 220.5, 241.5, 0.84));
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.1);
+}
+
+.poster_card {
+    position: relative;
+}
+
+.poster_card img{
+object-fit: cover;
+}
+.poster {
+    width: 300px;
+    height: 450px;
+    object-fit: contain;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+}
+
+.details {
+    color: var(--primaryColor);
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.details h4 {
+    font-style: italic;
+}
+
+.title_sub {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.genres {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.genre {
+    background-color: #032541;
+    color: var(--font-color);
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.runtime::before {
+    font-size: 1.1em;
+    line-height: 1;
+    content: "•";
+    width: 100%;
+    height: 100%;
+}
+
+.runtime {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.rating i {
+    font-size: 14px;
+}
+
+.addWatchlist {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #032541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color);
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.addWatchlist:hover {
+    background-color:#021d31;
+    /* box-shadow: 1px 0px 15px 0.5px rgb(20, 19, 19); */
+
+}
+
+.tt {
+    background-color: rgb(0, 0, 0);
+    color: var(--font-color);
+    font-size: 12px;
+    padding: 2px;
+}

@@ -1,0 +1,76 @@
+.card {
+    max-width: 175px;
+    height: 250px;
+    box-shadow: 5px 5px 20px black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.card img {
+    width: 175px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: transform 0.3s ease;
+}
+
+.intro {
+    height: 60px;
+    width: 175px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(27, 27, 27, 0.5);
+    color: white;
+    bottom: 0px;
+    transition: .5s;
+}
+
+.intro h1 {
+    margin: 0 5px 5px 5px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.intro p {
+    font-size: 14px;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+    color: rgb(255, 255, 255, .8);
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .intro {
+    height: 110px;
+    /* bottom: 0px; */
+    background: rgba(0, 0, 0, .9);
+    overflow: auto;
+}
+
+.card:hover .intro p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.intro::-webkit-scrollbar {
+    display: none;
+}
+
+/* .slick-prev:before, .slick-next:before{
+    color: black!important;
+    background-color: aqua;
+  }
+
+  .slick-slide > div{
+    margin: 0 30px;
+  } */

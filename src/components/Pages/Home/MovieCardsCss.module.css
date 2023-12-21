@@ -1,0 +1,39 @@
+.cards_section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #02233f;
+}
+
+.popular_movies {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.popular h1 {
+    font-size: 20px;
+    color: var(--font-color);
+    display: block;
+    margin-left: 20px;
+}
+
+.cards_section img {
+    width: 100%;
+    margin: auto;
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    /* top: 25%; */
+    /* bottom: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* box-shadow: 5px 10px 20px 5px rgb(28, 29, 28) inset; */
+    /* justify-content: space-around; */
+}
